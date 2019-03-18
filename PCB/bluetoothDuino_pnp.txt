@@ -1,0 +1,24 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=bluetoothDuino
+*Date=15:43:09
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;18.1984;-9.25421;0;Bottom;TXT3
+2;;THT;12.7722;-16.4822;90;Bottom;ZS-040
+3;;;12.2078;-9.91412;0;Bottom;TXT4
+4;;THT;2.61225;-8.86224;0;Bottom;J1
+5;;THT;5.15225;-8.86224;180;Bottom;AMS1117 - Stabilivolt Module
+6;;THT;12.7722;-1.24224;90;Bottom;FTDI/ARDMINI
+7;;;4.23994;-16.9025;0;Bottom;TXT1
+8;;;11.5022;-8.86224;180;Bottom;Paul-Ver
+9;;;4.23559;-0.356603;0;Bottom;TXT2
