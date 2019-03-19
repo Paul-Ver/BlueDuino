@@ -30,16 +30,19 @@ When using USB, the IDE will take care of this when selecting a board, but THIS 
 You can check the boards.txt file or [external resources](https://42bots.com/resources/arduino-program-sketch-upload-speeds/) for the correct baudrate.
 Arduino Micro/Mini's may differ! Some have Atmega328P and some Atmega168 and the baudrate for these differ!
 
+```
 AT+NAME=BlueDuino                   //Set the name of the module (this is how it's visible under bluetooth devices)
 AT+POLAR = 1,0                      //Set the polarity of the state pin (which is used as a reset line, automatically resets on connection)
 AT+UART=<<INSERT_YOUR_BAUDRATE>>    //Set the UART baudrate (nano 57600, uno 115200) check your boards.txt file
 AT+PSWD=<<INSERT_YOUR_PASSWORD>>    //Set passcode for the bluetooth module, to avoid others playing around with it
+```
 
 For me, under windows (clean install) I was able to connect to the bluetooth module directly (would show up as COM port) and it would work directly as if it's an USB/Serial cable.
 
 ## TODO/Notes
+I've lost the original board schematics for this project, but the board files are uploaded to this Git as well.
 
-* I've lost the original board schematics for this project, but the board files are uploaded to this Git as well.
+Contributions or discussions are greatly appreciated.
 
 TODO:
 * Recreate original board files
